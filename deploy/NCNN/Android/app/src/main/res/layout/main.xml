@@ -18,12 +18,14 @@
 
         <TextView
             android:id="@+id/textView2"
-            android:layout_width="85dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_marginLeft="60dp"
             android:accessibilityLiveRegion="none"
             android:contentDescription="description"
-            android:text="            Modify-By-tripleMu"
+            android:gravity="center"
+            android:text="Modify-By-tripleMu"
             android:textAppearance="@android:style/TextAppearance.Material.Body1"
             android:textSize="20sp"
             android:textStyle="bold|italic"
